@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px 100px
+}
+
+.general{
+    position: relative;
+    background-image: url("./img/pexels-dennis-magati-862848.jpg"); 
+    height: 600px;
+    overflow: hidden;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.D_logo{
+    height: 80px;
+    padding: 5px;
+}
+
+ul{
+    display: flex;
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    display: inline-block;
+    color: black;
+    font-weight: 800;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: #FFA299 ;
+}
+
+.main{
+    width: 100%;
+    height: 47vh;
+    display: flex;
+    text-align: center;
+    font-size: 5em;
+    flex-direction: column;
+    color:white;
+    font-weight: 700;
+}
+
+.general-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background:white;
+}
+.all-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.frist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:24px;
+    margin:10px;
+}
+
+span{
+    font-weight: 800;
+    margin: 5px;
+}
+
+input{
+    margin:1px;
+    border: solid 1px #2A6769;
+    height: 54px;
+    width: 100%;  
+}
+::placeholder{
+    font-weight: 800;
+}
+
+textarea{
+    border: solid 1px #2A6769;
+}
+
+
+.button{
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+button{
+    text-transform: uppercase;
+    padding: 17px  72px;
+    background-color:#1A73E8 ;
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
